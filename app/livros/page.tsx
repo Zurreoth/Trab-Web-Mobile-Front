@@ -1,8 +1,8 @@
 "use client";
 
-import Botao from "@/components/livros/botao";
+import Botao from "@/components/formulario/botao";
 import Formulario from "@/components/livros/formulario";
-import Layout from "@/components/livros/layout";
+import Layout from "@/components/layout/layout";
 import Tabela from "@/components/livros/tabela";
 import Livro from "@/core/livro";
 import { fetchLivros, cadastrarLivro, atualizarLivro, excluirLivro } from "@/service/livroService";

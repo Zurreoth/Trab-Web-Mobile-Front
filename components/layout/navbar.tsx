@@ -12,6 +12,10 @@ export default function Navbar(props: any) {
                         Home</a>
                     <a href="/livros" className="text-lg no-underline hover:text-amber-300 ml-2">
                         Livros</a>
+                    <a href="/usuarios" className="text-lg no-underline hover:text-amber-300 ml-2">
+                        Usuarios</a>
+                    <a href="/status" className="text-lg no-underline hover:text-amber-300 ml-2">
+                        Status</a>
                 </div>
             </nav>
         </>
